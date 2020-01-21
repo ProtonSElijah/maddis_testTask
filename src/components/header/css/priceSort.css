@@ -1,0 +1,39 @@
+.Header-sortBlock {
+    height: 100%;
+    width: 10%;
+    margin-left: 2%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header-iconSort {
+    height: 80%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    -moz-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+.Header-iconSort:hover {
+    cursor: pointer;
+    background: black;
+    -moz-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -webkit-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+}
+
+.Header-iconSort img {
+    width: 60%;
+    height: 100%;
+    object-fit: contain;
+}

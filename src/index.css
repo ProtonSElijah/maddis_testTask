@@ -1,0 +1,5 @@
+.app {
+    width: 100vmax;
+    height: 100vmin;
+    position: relative;
+}

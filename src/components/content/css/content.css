@@ -1,0 +1,13 @@
+.Content-container {
+    width: 96%;
+    height: 88%;
+
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0.5%;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
